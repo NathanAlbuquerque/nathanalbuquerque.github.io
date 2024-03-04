@@ -4,7 +4,9 @@
   "description": "Meu portfolio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch resources/sass:assets/css",
+    "sass-build": "sass resources/sass:assets/css --style compressed"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/NathanAlbuquerque/nathanalbuquerque.github.io/issues"
   },
-  "homepage": "https://github.com/NathanAlbuquerque/nathanalbuquerque.github.io#readme"
+  "homepage": "https://github.com/NathanAlbuquerque/nathanalbuquerque.github.io#readme",
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
 }
