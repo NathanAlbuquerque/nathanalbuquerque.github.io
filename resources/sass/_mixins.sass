@@ -1,0 +1,21 @@
+// mq: media query
+
+@mixin mq-mobile-small
+    @media only screen and (max-width: $bp-mobile-small)
+        @content
+
+@mixin mq-mobile-medium
+    @media only screen and (max-width: $bp-mobile-medium)
+        @content
+
+@mixin mq-tablet
+    @media only screen and (max-width: $bp-tablet)
+        @content
+
+@mixin mq-desktop-small
+    @media only screen and (max-width: $bp-desktop-small)
+        @content
+
+@mixin mq-desktop-medium
+    @media only screen and (max-width: $bp-desktop-medium)
+        @content
